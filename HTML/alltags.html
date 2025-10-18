@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>All HTML Tags Example</title>
+</head>
+<body>
+
+    <!-- ================== Heading Tags ================== -->
+    <div>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </div>
+    <hr>
+
+    <!-- ================== Paragraph & Text Formatting Tags ================== -->
+    <div>
+        <p><b>Bold text using &lt;b&gt;</b></p>
+        <p><strong>Strong text using &lt;strong&gt;</strong></p>
+        <p><i>Italic text using &lt;i&gt;</i></p>
+        <p><em>Emphasized text using &lt;em&gt;</em></p>
+        <p><u>Underlined text using &lt;u&gt;</u></p>
+        <p><mark>Marked text using &lt;mark&gt;</mark></p>
+        <p><small>Small text using &lt;small&gt;</small></p>
+        <p><del>Deleted text using &lt;del&gt;</del></p>
+        <p><ins>Inserted text using &lt;ins&gt;</ins></p>
+        <p>This is <sub>subscript</sub> and <sup>superscript</sup> text.</p>
+    </div>
+    <hr>
+
+    <!-- ================== Link & Image Tags ================== -->
+    <div>
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+        <br><br>
+        <img src="https://via.placeholder.com/100" alt="Sample Image" width="100" height="100">
+        <!-- Replace the src with a valid image path if needed -->
+    </div>
+    <hr>
+
+    <!-- ================== Table Tags ================== -->
+    <div>
+        <table border="1">
+            <caption>Sample Table</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sam</td>
+                    <td>25</td>
+                    <td>Bhopal</td>
+                </tr>
+                <tr>
+                    <td>Adi</td>
+                    <td>21</td>
+                    <td>Bihar</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Footer Info</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <hr>
+
+    <!-- ================== List Tags ================== -->
+    <div>
+        <h3>Unordered List</h3>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol type="A">
+            <li>Red</li>
+            <li>Green</li>
+            <li>Blue</li>
+        </ol>
+
+        <h3>Description List</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+        </dl>
+    </div>
+    <hr>
+
+    <!-- ================== Form Tags ================== -->
+    <div>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label for="color">Color:</label>
+            <input type="color" id="color" name="color"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male"> <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female"> <label for="female">Female</label><br><br>
+
+            <label>Hobbies:</label><br>
+            <input type="checkbox" id="music" name="hobby" value="Music"> <label for="music">Music</label><br>
+            <input type="checkbox" id="sports" name="hobby" value="Sports"> <label for="sports">Sports</label><br><br>
+
+            <label for="range">Volume:</label>
+            <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+            <label for="review">Review:</label><br>
+            <textarea id="review" name="review" rows="5" cols="50" placeholder="Write your comment..."></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+    <hr>
+
+    <!-- ================== Media Tags ================== -->
+    <div>
+        <h3>Audio Tag</h3>
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <hr>
+
+        <h3>Video Tag</h3>
+        <video controls autoplay muted width="400">
+            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <hr>
+
+    <!-- ================== Semantic Tags ================== -->
+    <div>
+        <header>Header Section</header>
+        <nav>Navigation Bar</nav>
+        <main>Main Content</main>
+        <section>Section Content</section>
+        <article>Article Content</article>
+        <aside>Aside / Sidebar Content</aside>
+        <footer>Footer Section</footer>
+    </div>
+    <hr>
+
+    <!-- ================== Other Useful Tags ================== -->
+    <div>
+        <figure>
+            <img src="https://via.placeholder.com/150" alt="Figure Example">
+            <figcaption>Figure Caption</figcaption>
+        </figure>
+
+        <blockquote cite="https://example.com">
+            This is a blockquote example.
+        </blockquote>
+
+        <details>
+            <summary>Click to expand details</summary>
+            <p>Hidden information displayed when expanded.</p>
+        </details>
+
+        <progress value="50" max="100"></progress>
+        <meter value="0.75">75%</meter>
+        <time datetime="2025-10-13">October 13, 2025</time>
+    </div>
+
+</body>
+</html>

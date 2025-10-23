@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School Admission Form</title>
+</head>
+<body>
+
+    <!-- heading tags -->
+    <header>
+        <h1>Green Valley Public School</h1>
+        <h2>Admission Form - 2025</h2>
+        <p>Please fill in the form below to apply for admission.</p>
+    </header>
+    <hr>
+
+    <!-- form tags -->
+    <form action="submit">
+
+        <!-- fieldset & legend tags -->
+        <fieldset>
+            <legend>Student Information</legend>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="40" placeholder="Enter your full address"></textarea>
+        </fieldset>
+        <br>
+
+        <!-- parent details -->
+        <fieldset>
+            <legend>Parent Details</legend>
+            <label for="father">Father's Name:</label>
+            <input type="text" id="father" name="father"><br><br>
+
+            <label for="mother">Mother's Name:</label>
+            <input type="text" id="mother" name="mother"><br><br>
+
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact"><br><br>
+        </fieldset>
+        <br>
+
+        <!-- class selection -->
+        <fieldset>
+            <legend>Admission Details</legend>
+
+            <label for="class">Select Class:</label>
+            <select id="class" name="class">
+                <option>Nursery</option>
+                <option>LKG</option>
+                <option>UKG</option>
+                <option>Class 1</option>
+                <option>Class 2</option>
+                <option>Class 3</option>
+                <option>Class 4</option>
+                <option>Class 5</option>
+            </select><br><br>
+
+            <label>Previous School Attended:</label>
+            <input type="text" name="previous_school"><br><br>
+        </fieldset>
+        <br>
+
+        <!-- buttons -->
+        <input type="submit" value="Submit Form">
+        <input type="reset" value="Reset">
+    </form>
+
+    <hr>
+
+    <!-- footer tag -->
+    <footer>
+        <p>© 2025 Green Valley Public School. All Rights Reserved.</p>
+        <p>📍 Address: 123 Education Lane, Bhopal | 📞 +91-9876543210</p>
+    </footer>
+
+</body>
+</html>

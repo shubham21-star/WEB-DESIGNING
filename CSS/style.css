@@ -1,0 +1,22 @@
+ /* External CSS File */
+body {
+  background-color: #e0f7fa;
+  font-family: Verdana, sans-serif;
+}
+h1 {
+  color: darkred;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  color: #01c6ee;
+  font-size: 18px;
+  text-align: center;
+}
+button {
+  background-color: rgb(10, 228, 60);
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  font-size: 16px;
+}

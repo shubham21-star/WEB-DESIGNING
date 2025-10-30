@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Box Model</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 20px;
+        }
+        h2 {
+            color: #2e8b57;
+            text-align: center;
+        }
+        /* Outer container */
+        .container {
+            background-color: #ffe4e1;
+            border: 5px solid #ff69b4;
+            padding: 20px;
+            margin: 30px;
+            text-align: center;
+        }
+        /* Inner box */
+        .inner-box {
+            background-color: #e0ffff;
+            border: 3px solid #2e8b57;
+            padding: 15px;
+            margin: 20px;
+            text-align: center;
+        }
+        /* Small box */
+        .small-box {
+            background-color: #fffacd;
+            border: 2px dashed #ffa500;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        /* Label text */
+        .label {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h2>CSS Box Model Demonstration</h2>
+<p>This experiment demonstrates how <strong>margin, padding, and border</strong> work in CSS.</p>
+
+<div class="container">
+    <span class="label">Container: Margin = 30px, Padding = 20px, Border = 5px solid pink</span>
+    <div class="inner-box">
+        <span class="label">Inner Box: Margin = 20px, Padding = 15px, Border = 3px solid green</span>
+        <div class="small-box">
+            <span class="label">Small Box: Margin = 10px, Padding = 10px, Border = 2px dashed orange</span>
+            Content inside the small box
+        </div>
+    </div>
+</div>
+
+<p><strong>Explanation:</strong></p>
+<ul>
+    <li><strong>Margin:</strong> Space outside the border that separates elements.</li>
+    <li><strong>Border:</strong> Surrounds the padding and content area.</li>
+    <li><strong>Padding:</strong> Space between the content and border.</li>
+</ul>
+
+</body>
+</html>

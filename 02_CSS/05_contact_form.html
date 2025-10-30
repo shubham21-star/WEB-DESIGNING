@@ -1,0 +1,102 @@
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+
+  <style>
+    /* ===== Basic Page Styling ===== */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* ===== Contact Form Box ===== */
+    .contact-form {
+      background-color: #f6f7f7;
+      padding: 25px 30px;
+      border-radius: 10px;
+      box-shadow: 0 10px 18px rgba(0, 0, 0, 0.1);
+      width: 350px;
+    }
+
+    /* ===== Form Headline ===== */
+    .contact-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* ===== Input Fields & Textarea ===== */
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #111010;
+      border-radius: 50px;
+    }
+
+    /* ===== Button Styling ===== */
+    .btn-group {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .contact-form input[type="submit"],
+    .contact-form input[type="reset"] {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 50px;
+      cursor: move;
+    }
+
+    .contact-form input[type="reset"] {
+      background-color: #dc3545;
+    }
+
+    .contact-form input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    .contact-form input[type="reset"]:hover {
+      background-color: #a71d2a;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== Contact Form Start ===== -->
+  <form class="contact-form">
+    <h2><B>CONTACT US</B></h2>
+    
+
+    <!-- Name -->
+    <input type="text" placeholder="Full Name" required>
+
+    <!-- Email -->
+    <input type="email" placeholder="Email Address" required>
+
+    <!-- Phone -->
+    <input type="tel" placeholder="Phone Number" required>
+
+    <!-- Message -->
+    <textarea placeholder="Your Message..."></textarea>
+
+    <!-- Submit & Reset Buttons -->
+    <div class="btn-group">
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </div>
+  </form>
+  <!-- ===== Contact Form End ===== -->
+
+</body>
+</html>

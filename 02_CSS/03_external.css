@@ -1,15 +1,15 @@
  /* External CSS File */
 body {
-  background-color: #e0f7fa;
+  background-color: #b5e5eb;
   font-family: Verdana, sans-serif;
 }
 h1 {
-  color: darkred;
+  color: #6b008b;
   text-align: center;
   text-decoration: underline;
 }
 p {
-  color: #01c6ee;
+  color: #050232;
   font-size: 18px;
   text-align: center;
 }

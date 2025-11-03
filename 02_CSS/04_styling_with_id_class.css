@@ -2,11 +2,8 @@
 body{
     background-color: #fbc5c5;
     border : 5px solid rgb(9, 0, 0);
-    margin-top:25px;
-    margin-bottom:50px;
-    margin-left:10px;
-    margin-right:55px;
-}
+    margin : 10px 15px 20px 25px;
+    padding : 10px 15px 20px 25px;
 
 p{
     color: rgb(255, 0, 127);

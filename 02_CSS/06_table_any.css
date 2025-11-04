@@ -1,0 +1,51 @@
+body{
+    background-color: #ded5ca;
+    margin: 10px 15px 10px 15px;
+    padding: auto;
+}
+    h1{
+        text-decoration: underline;
+        color: rgb(218, 129, 11);
+        text-align: center;
+        text-decoration-color: rgb(80, 45, 5);
+    }
+    table,tr,td,th{
+        border: 2px solid rgb(67, 36, 2);
+        margin: 5px 5px 5px 5px;
+        padding: 5px;
+    }
+    th{
+        background-color: rgb(119, 208, 208);
+    }
+    td{
+        background-color: aquamarine;
+    }
+
+    .A{
+        height: 15px;
+        width: 10px;
+        margin: 25px;
+        padding: 15px;
+    }
+    #a{
+        background-color: rgb(216, 100, 5);
+    }
+    #b{
+        background-color: rgb(5, 58, 216);
+    }
+    #c{
+        background-color: rgb(153, 216, 5);
+    }
+    #d{
+        background-color: rgb(24, 142, 220);
+    }
+    #e{
+        background-color: rgb(114, 12, 186);
+    }
+    #f{
+        background-color: rgb(194, 16, 158);
+    }
+    .container{
+        display:flex
+        flex-direction: column;
+    }

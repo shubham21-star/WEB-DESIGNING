@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left img {
+  height: 600px;
+  margin-right: 40px;
+}
+
+.login-box, .signup-box {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.insta-logo {
+  font-family: cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+form button {
+  background: #0095f6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.divider hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #dbdbdb;
+}
+
+.divider span {
+  margin: 0 10px;
+  color: gray;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: #0095f6;
+  font-size: 14px;
+}
+
+.fb-login {
+  color: #385185;
+  font-weight: bold;
+}
+
+footer {
+  color: gray;
+  font-size: 12px;
+  margin-top: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left img {
+  height: 600px;
+  margin-right: 40px;
+}
+
+.login-box, .signup-box {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  width: 350px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.insta-logo {
+  font-family: cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+
+form button {
+  background: #0095f6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.divider hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid #dbdbdb;
+}
+
+.divider span {
+  margin: 0 10px;
+  color: gray;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: #0095f6;
+  font-size: 14px;
+}
+
+.fb-login {
+  color: #385185;
+  font-weight: bold;
+}
+
+footer {
+  color: gray;
+  font-size: 12px;
+  margin-top: 20px;
+}
